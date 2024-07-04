@@ -41,7 +41,7 @@ export default function Section({ name = "It Works!", count = 0 }: Props) {
             </span>
             <span class="loading loading-spinner hidden [.htmx-request_&]:inline" />
           </button>
-          <span>{count}</span>
+          <span class="text-4xl">{count}</span>
           <button
             hx-target="#it-works"
             hx-swap="outerHTML"
